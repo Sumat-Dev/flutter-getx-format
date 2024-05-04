@@ -1,16 +1,15 @@
 # Flutter Getx Format
 **Flutter Getx** is an opinionated state management solution built on top of Flutter. It aims to simplify state management in your Flutter applications by providing a concise and reactive approach.
 
-### Concepts :dart:
-- **GetX Controller** : A class that encapsulates application state and logic. It typically extends _GetxController_ from the _get_ package.
-- **Observables** : Variables declared using _Rx_ types within the controller. These variables automatically notify the UI whenever their values change.
-- **Dependency Injection** : Getx promotes loose coupling between UI widgets and controllers through dependency injection. You can inject controllers into widgets using _Get.put_ or _Get.find_.
+## Concepts 
+- **GetX Controller** : A class that encapsulates application state and logic. It typically extends `GetxController` from the `get` package.
+- **Observables** : Variables declared using `Rx` types within the controller. These variables automatically notify the UI whenever their values change.
+- **Dependency Injection** : Getx promotes loose coupling between UI widgets and controllers through dependency injection. You can inject controllers into widgets using `Get.put` or `Get.find`.
 - **Routing** : Getx provides a built-in navigation system with named routes and parameters for easy navigation between screens.
-- **Reactive Bindings** : You can use _Obx_ or other reactive widgets to automatically rebuild parts of the UI whenever an observable value changes.
+- **Reactive Bindings** : You can use `Obx` or other reactive widgets to automatically rebuild parts of the UI whenever an observable value changes.
 
-> I hope this Flutter Getx Fomat can help you get started on your project Thank you.
 
-### Folder structure :european_castle:
+## Folder structure
 ```bash
 lib 
 ├── main.dart 
