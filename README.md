@@ -21,8 +21,7 @@ lib
 	│ 	└── assets_path.dart
 	├── features 
 	│   ├── bindings 
-	│   │   ├── login_binding.dart 
-	│   │   └── register_binding.dart 
+	│   │   └── products_binding.dart 
 	│   ├── controllers 
 	│   │   ├── cart_controller.dart 
 	│   │   └── products_controller.dart 
@@ -32,12 +31,10 @@ lib
 	│ 	  ├── components 
 	│ 	  │   └── header.dart 
 	│ 	  └── screens 
-	│ 	      ├── home 
-	│ 	      │   └── home_screen.dart 
-	│ 	      ├── login 
-	│ 	      │   └── login_screen.dart 
-	│ 	      └── register 
-	│                 └── register_screen.dart
+	│ 	      ├── home_screen.dart 
+	│ 	      ├── login_screen.dart  
+	│ 	      └── register_screen.dart 
+	│             
 	└── utils
             └── services
                 ├── local_storage_services.dar 
