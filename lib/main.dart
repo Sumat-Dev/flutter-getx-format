@@ -3,7 +3,6 @@ import 'app/config/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +15,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Getx Format',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.basic,
+      themeMode: ThemeMode.system,
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
       initialRoute: AppPages.initial,
       getPages: AppPages.routes,
     );

@@ -1,16 +1,15 @@
+// ignore_for_file: constant_identifier_names
+
 part of 'app_pages.dart';
 
-/// A class containing route names used for navigation.
 class Routes {
-  static const login = _Paths.login;
-  static const register = _Paths.register;
-  static const home = _Paths.home;
+  static const LOGIN = _Paths.LOGIN;
+  static const REGISTER = _Paths.REGISTER;
+  static const HOME = _Paths.HOME;
 }
 
-/// A class containing constant route paths.
-// Separated to manage route naming conveniently.
 class _Paths {
-  static const login = '/login';
-  static const register = '/register';
-  static const home = '/home';
+  static const LOGIN = '/login';
+  static const REGISTER = '/register';
+  static const HOME = '/home';
 }

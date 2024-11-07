@@ -24,8 +24,8 @@ lib
 	│   │   ├── login_binding.dart 
 	│   │   └── register_binding.dart 
 	│   ├── controllers 
-	│   │   ├── login_controller.dart 
-	│   │   └── register_controller.dart 
+	│   │   ├── cart_controller.dart 
+	│   │   └── products_controller.dart 
 	│   ├── models 
 	│   │   └── user_model.dart 
 	│   └── views 
@@ -41,5 +41,5 @@ lib
 	└── utils
             └── services
                 ├── local_storage_services.dar 
-                └── rest_api_services.dart
+                └── api_services.dart
 ```

@@ -1,8 +1,10 @@
-part of app_constants;
+part of 'app_constants.dart';
 
-/// all endpoint api
 class ApiPath {
-  // Example :
-  // static const _BASE_URL = "https://api.flutterwithgia.com";
-  // static const product = "$_BASE_URL/product";
+  // ignore: constant_identifier_names
+  static const _BASE_URL = "https://api.mack.co/api";
+
+  static const login = "$_BASE_URL/login";
+  static const register = "$_BASE_URL/register";
+  static const product = "$_BASE_URL/product";
 }
